@@ -1,1 +1,89 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(253, 253, 241);
+}
+
+.header__title {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: rgb(40, 40, 40);
+}
+
+.textarea {
+  width: 680px;
+  height: 200px;
+}
+
+.keyboard {
+  width: 680px;
+  height: 230px;
+  padding: 5px;
+  background-color: rgb(214, 211, 211);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.keyboard__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.keyboard__button {
+  width: 40px;
+  height: 40px;
+  padding-top: 12px;
+  background-color: aliceblue;
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: gray;
+  text-align: center;
+}
+
+.keyboard__button_big {
+  width: 85px;
+}
+
+.space {
+  width: 310px;
+}
+
+.footer__information {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
