@@ -37,6 +37,13 @@ body {
 .textarea {
   width: 680px;
   height: 200px;
+  padding: 20px;
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: rgb(40, 40, 40);
 }
 
 .keyboard {
@@ -67,6 +74,12 @@ body {
   letter-spacing: 0.01em;
   color: gray;
   text-align: center;
+  cursor: pointer;
+}
+
+.keyboard__button_active {
+  background-color: rgb(119, 122, 123);
+  color: white;
 }
 
 .keyboard__button_big {

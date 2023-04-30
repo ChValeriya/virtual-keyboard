@@ -12,6 +12,8 @@ body {
 .textarea {
   width: 680px;
   height: 200px;
+  padding: 20px;
+  @include font('Arial', 400, 16px, 16px, 0.01em, rgb(40, 40, 40));
 }
 
 .keyboard {
@@ -37,6 +39,12 @@ body {
   background-color: aliceblue;
   @include font('Arial', 400, 16px, 16px, 0.01em, gray);
   text-align: center;
+  cursor: pointer;
+}
+
+.keyboard__button_active {
+  background-color: rgb(119, 122, 123);
+  color: white;
 }
 
 .keyboard__button_big {
