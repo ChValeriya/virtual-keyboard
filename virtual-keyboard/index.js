@@ -46,9 +46,7 @@ keyboardRow5Rus.classList.add('keyboard__row');
 keyboardRow5En.classList.add('keyboard__row_active');
 
 let row1ContentEn = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace'];
-let row1ContentEnUp = ['~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', 'Backspace'];
 let row1ContentRus = ['ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace'];
-let row1ContentRusUp = ['Ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace'];
 let row1Keys = ['Backquote', 'Digit1', 'Digit2', 'Digit3', 'Digit4', 'Digit5', 'Digit6', 'Digit7', 'Digit8', 'Digit9', 'Digit0', 'Minus', 'Equal', 'Backspace'];
 let addRow1 = (lang, row) => {
   for (let i = 0; i < row1ContentEn.length; i++) {
@@ -68,9 +66,7 @@ addRow1(row1ContentRus, keyboardRow1Rus)
 
 
 let row2ContentEn = ['Tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', '\\', 'Del'];
-let row2ContentEnUp = ['Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{', '}', '|', 'Del'];
 let row2ContentRus = ['Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', '\\', 'Del'];
-let row2ContentRusUp = ['Tab', 'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', '/', 'Del'];
 let row2Keys = ['Tab', 'KeyQ', 'KeyW', 'KeyE', 'KeyR', 'KeyT', 'KeyY', 'KeyU', 'KeyI', 'KeyO', 'KeyP', 'BracketLeft', 'BracketRight', 'Backslash', 'Delete'];
 let addRow2 = (lang, row) => {
   for (let i = 0; i < row2ContentEn.length; i++) {
@@ -85,9 +81,7 @@ addRow2(row2ContentEn, keyboardRow2En)
 addRow2(row2ContentRus, keyboardRow2Rus)
 
 let row3ContentEn = ['Caps lock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', '\'', 'Enter'];
-let row3ContentEnUp = ['Caps lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':', '"', 'Enter'];
 let row3ContentRus = ['Caps lock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter'];
-let row3ContentRusUp = ['Caps lock', 'Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Enter'];
 let row3Keys = ['CapsLock', 'KeyA', 'KeyS', 'KeyD', 'KeyF', 'KeyG', 'KeyH', 'KeyJ', 'KeyK', 'KeyL', 'Semicolon', 'Quote', 'Enter'];
 let addRow3 = (lang, row) => {
   for (let i = 0; i < row3ContentEn.length; i++) {
@@ -105,9 +99,7 @@ addRow3(row3ContentEn, keyboardRow3En)
 addRow3(row3ContentRus, keyboardRow3Rus)
 
 let row4ContentEn = ['Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', 'ᐃ', 'Shift'];
-let row4ContentEnUp = ['Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<', '>', '?', 'ᐃ', 'Shift'];
 let row4ContentRus = ['Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', 'ᐃ', 'Shift'];
-let row4ContentRusUp = ['Shift', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', 'ᐃ', 'Shift'];
 let row4Keys = ['ShiftLeft', 'KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM', 'Comma', 'Period', 'Slash', 'ArrowUp', 'ShiftRight'];
 let addRow4 = (lang, row) => {
   for (let i = 0; i < row4ContentEn.length; i++) {
