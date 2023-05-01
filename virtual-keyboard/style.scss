@@ -27,13 +27,13 @@ body {
 }
 
 .keyboard__row {
+  display: none;
+}
+
+.keyboard__row_active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.keyboard__row_inactive {
-  display: none;
 }
 
 .keyboard__button {
